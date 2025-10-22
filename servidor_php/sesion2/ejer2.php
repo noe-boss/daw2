@@ -1,0 +1,108 @@
+<?php
+
+// Ejemplo de datos (podrían venir de una base de datos)
+
+$personas = [
+  ["nombre" => "China", "habitantes" => 1410470000, "superficie" => 9596961],
+  ["nombre" => "India", "habitantes" => 1382600000, "superficie" => 3287263],
+  ["nombre" => "Estados Unidos", "habitantes" => 339000000, "superficie" => 9833517],
+  ["nombre" => "Indonesia", "habitantes" => 275500000, "superficie" => 1904569],
+  ["nombre" => "Pakistán", "habitantes" => 240500000, "superficie" => 770880],
+  ["nombre" => "Brazil", "habitantes" => 215000000, "superficie" => 8515770],
+  ["nombre" => "Nigeria", "habitantes" => 224000000, "superficie" => 923768],
+  ["nombre" => "Bangladesh", "habitantes" => 171000000, "superficie" => 147570],
+  ["nombre" => "Rusia", "habitantes" => 146000000, "superficie" => 17098242],
+  ["nombre" => "México", "habitantes" => 133000000, "superficie" => 1964375],
+  ["nombre" => "Japón", "habitantes" => 124000000, "superficie" => 377975],
+  ["nombre" => "Etiopía", "habitantes" => 120000000, "superficie" => 1104300],
+  ["nombre" => "Filipinas", "habitantes" => 116000000, "superficie" => 300000],
+  ["nombre" => "Egipto", "habitantes" => 110000000, "superficie" => 1002450],
+  ["nombre" => "Vietnam", "habitantes" => 103000000, "superficie" => 331212],
+  ["nombre" => "República Democrática del Congo", "habitantes" => 110000000, "superficie" => 2344858],
+  ["nombre" => "Irán", "habitantes" => 86000000, "superficie" => 1648195],
+  ["nombre" => "Turquía", "habitantes" => 86000000, "superficie" => 783562],
+  ["nombre" => "Alemania", "habitantes" => 84000000, "superficie" => 357022],
+  ["nombre" => "Tailandia", "habitantes" => 70000000, "superficie" => 510890],
+  ["nombre" => "Reino Unido", "habitantes" => 68000000, "superficie" => 243610],
+  ["nombre" => "Francia", "habitantes" => 67000000, "superficie" => 551695],
+  ["nombre" => "Italia", "habitantes" => 60000000, "superficie" => 301340],
+  ["nombre" => "Tanzania", "habitantes" => 62000000, "superficie" => 947300],
+  ["nombre" => "Sudáfrica", "habitantes" => 60000000, "superficie" => 1221037],
+  ["nombre" => "Myanmar", "habitantes" => 57000000, "superficie" => 676578],
+  ["nombre" => "Corea del Sur", "habitantes" => 52000000, "superficie" => 100210],
+  ["nombre" => "Colombia", "habitantes" => 52000000, "superficie" => 1141748],
+  ["nombre" => "Kenya", "habitantes" => 52000000, "superficie" => 580367],
+  ["nombre" => "España", "habitantes" => 49000000, "superficie" => 505990],
+  ["nombre" => "Argelia", "habitantes" => 46000000, "superficie" => 2381741],
+  ["nombre" => "Uganda", "habitantes" => 48000000, "superficie" => 241550],
+  ["nombre" => "Sudán", "habitantes" => 48000000, "superficie" => 1861484],
+  ["nombre" => "Ucrania", "habitantes" => 42000000, "superficie" => 603500],
+  ["nombre" => "Irak", "habitantes" => 44000000, "superficie" => 438317],
+  ["nombre" => "Polonia", "habitantes" => 37000000, "superficie" => 312696],
+  ["nombre" => "Canadá", "habitantes" => 38000000, "superficie" => 9984670],
+  ["nombre" => "Marruecos", "habitantes" => 37000000, "superficie" => 446550],
+  ["nombre" => "Arabia Saudita", "habitantes" => 36000000, "superficie" => 2149690],
+  ["nombre" => "Uzbekistán", "habitantes" => 37000000, "superficie" => 447400],
+  ["nombre" => "Malasia", "habitantes" => 33000000, "superficie" => 330803],
+  ["nombre" => "Perú", "habitantes" => 34500000, "superficie" => 1285216],
+  ["nombre" => "Afganistán", "habitantes" => 35000000, "superficie" => 652230],
+  ["nombre" => "Angola", "habitantes" => 35000000, "superficie" => 1246700],
+  ["nombre" => "Mozambique", "habitantes" => 33000000, "superficie" => 801590],
+  ["nombre" => "Ghana", "habitantes" => 33000000, "superficie" => 238533],
+  ["nombre" => "Yemen", "habitantes" => 32000000, "superficie" => 527968],
+  ["nombre" => "Nepal", "habitantes" => 31000000, "superficie" => 147181],
+  ["nombre" => "Venezuela", "habitantes" => 28500000, "superficie" => 916445],
+  ["nombre" => "Madagascar", "habitantes" => 30000000, "superficie" => 587041],
+  ["nombre" => "Camerún", "habitantes" => 26500000, "superficie" => 475442],
+  ["nombre" => "Costa de Marfil", "habitantes" => 27000000, "superficie" => 322463],
+  ["nombre" => "Niger", "habitantes" => 26000000, "superficie" => 1267000],
+  ["nombre" => "Sri Lanka", "habitantes" => 22000000, "superficie" => 65610],
+  ["nombre" => "Burkina Faso", "habitantes" => 23000000, "superficie" => 274200],
+  ["nombre" => "Mali", "habitantes" => 24000000, "superficie" => 1240192],
+  ["nombre" => "Rumanía", "habitantes" => 19000000, "superficie" => 238391],
+  ["nombre" => "Kazajistán", "habitantes" => 20000000, "superficie" => 2724900],
+  ["nombre" => "Siria", "habitantes" => 18000000, "superficie" => 185180],
+  ["nombre" => "Chile", "habitantes" => 19000000, "superficie" => 756102],
+  ["nombre" => "Guatemala", "habitantes" => 19000000, "superficie" => 108889],
+  ["nombre" => "Zambia", "habitantes" => 21000000, "superficie" => 752618],
+  ["nombre" => "Países Bajos", "habitantes" => 17500000, "superficie" => 41543],
+  ["nombre" => "Senegal", "habitantes" => 18000000, "superficie" => 196722],
+  ["nombre" => "Camboya", "habitantes" => 17200000, "superficie" => 181035],
+  ["nombre" => "Chad", "habitantes" => 17500000, "superficie" => 1284000],
+  ["nombre" => "Somalia", "habitantes" => 17000000, "superficie" => 637657],
+  ["nombre" => "Zimbabwe", "habitantes" => 16500000, "superficie" => 390757],
+  ["nombre" => "Guinea", "habitantes" => 15600000, "superficie" => 245857],
+  ["nombre" => "Rwanda", "habitantes" => 15000000, "superficie" => 26338],
+  ["nombre" => "Benín", "habitantes" => 13500000, "superficie" => 114763],
+  ["nombre" => "Burundi", "habitantes" => 13500000, "superficie" => 27834],
+  ["nombre" => "Túnez", "habitantes" => 13000000, "superficie" => 163610],
+  ["nombre" => "Bolivia", "habitantes" => 12500000, "superficie" => 1098581],
+  ["nombre" => "Bélgica", "habitantes" => 11600000, "superficie" => 30528],
+  ["nombre" => "Haití", "habitantes" => 11700000, "superficie" => 27750],
+  ["nombre" => "Cuba", "habitantes" => 11200000, "superficie" => 109884],
+];
+
+
+// Generar tabla HTML
+echo "<table border='1' cellpadding='5' cellspacing='0'>";
+echo "<tr><th>Pais</th><th>Tamaño</th><th>Tercer digito</th></tr>";
+
+foreach ($paises as $pais) {
+    $nombre = $pais["nombre"];
+    $habitantes = $pais["habitantes"];
+    $superficie = $pais["superficie"];
+
+    $tamaño = ($habitantes > 10000000) ? "país grande" : "país pequeño";
+
+    $superficieStr = strval($superficie);
+    $indice = strlen($superficieStr) - 3;
+    $tercerDigito = ($indice >= 0) ? $superficieStr[$indice] : "-";
+
+    echo "<tr>";
+    echo "<td>$nombre</td>";
+    echo "<td>$tamaño</td>";
+    echo "<td>$tercerDigito</td>";
+    echo "</tr>";
+}
+
+echo "</table>";

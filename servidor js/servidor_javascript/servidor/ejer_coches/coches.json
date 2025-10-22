@@ -1,0 +1,34 @@
+[
+  {
+    "marca": "XPENG",
+    "modelo": "G7",
+    "anio": 2025,
+    "autonomia": 700,
+    "electrico": true,
+    "type": "module"
+  },
+  {
+    "marca": "BYD",
+    "modelo": "sealion 7",
+    "anio": 2024,
+    "autonomia": 650,
+    "electrico": true,
+    "type": "module"
+  },
+  {
+    "marca": "MG",
+    "modelo": "MGS5",
+    "anio": 2025,
+    "autonomia": 500,
+    "electrico": true,
+    "type": "module"
+  },
+  {
+    "marca": "mercedes",
+    "modelo": "GLE",
+    "anio": 2022,
+    "autonomia": 1200,
+    "electrico": false,
+    "type": "module"
+  }
+]
