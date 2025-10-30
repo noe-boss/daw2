@@ -1,5 +1,5 @@
 
-function ejemplos() {
+export function ejemplos() {
 
             const paises = [   
                 { "nombre": "China", "habitantes": 1410470000, "superficie": 9596961 },
@@ -113,5 +113,3 @@ function ejemplos() {
             }
 
 }
-
-module.exports = {ejemplos};

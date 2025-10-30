@@ -4,31 +4,27 @@
     "modelo": "G7",
     "anio": 2025,
     "autonomia": 700,
-    "electrico": true,
-    "type": "module"
+    "electrico": true
   },
   {
     "marca": "BYD",
     "modelo": "sealion 7",
     "anio": 2024,
     "autonomia": 650,
-    "electrico": true,
-    "type": "module"
+    "electrico": true
   },
   {
     "marca": "MG",
     "modelo": "MGS5",
     "anio": 2025,
     "autonomia": 500,
-    "electrico": true,
-    "type": "module"
+    "electrico": true
   },
   {
     "marca": "mercedes",
     "modelo": "GLE",
     "anio": 2022,
     "autonomia": 1200,
-    "electrico": false,
-    "type": "module"
+    "electrico": false
   }
 ]

@@ -1,0 +1,50 @@
+[
+    {
+        "month": "ENERO",
+        "days": 31
+    },
+   {
+        "month": "FEBRERO",
+        "days": 29
+    },
+    {
+        "month": "MARZO",
+        "days": 31
+    },
+    {
+        "month": "ABRIL",
+        "days": 30
+    },
+    {
+        "month": "MAYO",
+        "days": 31
+    },
+    {
+        "month": "JUNIO",
+        "days": 30
+    },
+    {
+        "month": "JULIO",
+        "days": 31
+    },
+    {
+        "month": "AGOSTO",
+        "days": 31
+    },
+    {
+        "month": "SEPTIEMBRE",
+        "days": 30
+    },
+    {
+        "month": "OCTUBRE",
+        "days": 31
+    },
+    {
+        "month": "NOVIEMBRE",
+        "days": 30
+    },
+    {
+        "month": "DICIEMBRE",
+        "days": 31
+    }
+]

@@ -4,7 +4,7 @@
 //     return true;
 // }
 
-function variables() {
+export function variables() {
     var no_es_bloque = "hola";
     console.log("no_es_bloque",no_es_bloque);
 
@@ -18,7 +18,7 @@ function variables() {
     return true;
 }
 
-function concatenar() {
+export function concatenar() {
     let cadena = "1";
     let num1 = 1;
     let num2 =2;
@@ -30,7 +30,3 @@ function concatenar() {
     console.log("suma",suma);
 
 }
-
-
-//Exportamos las funciones 
-module.exports = {variables,concatenar};
