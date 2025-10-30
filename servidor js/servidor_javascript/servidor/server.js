@@ -1,7 +1,7 @@
 import express from 'express';
 import { variables, concatenar } from './sesion2/sesion2.js';
 import { mostrarCoches } from './ejer_coches/main.js';
-import { ejemplos } from './sesion2/paises.js';
+import { ejemplos } from './sesion2/paises.js'; 
 
 const app = express();
 const port = 3000;
