@@ -1,0 +1,22 @@
+[
+    {"title":"Cadena perpetua","director":"Frank Darabont","actor":"Tim Robbins"},
+    {"title":"El Padrino","director":"Francis Ford Coppola","actor":"Marlon Brando"},
+    {"title":"El caballero oscuro","director":"Christopher Nolan","actor":"Christian Bale"},
+    {"title":"El Padrino: Parte II","director":"Francis Ford Coppola","actor":"Al Pacino"},
+    {"title":"12 hombres sin piedad","director":"Sidney Lumet","actor":"Henry Fonda"},
+    {"title":"La lista de Schindler","director":"Steven Spielberg","actor":"Liam Neeson"},
+    {"title":"El señor de los anillos: El retorno del rey","director":"Peter Jackson","actor":"Elijah Wood"},
+    {"title":"Pulp Fiction","director":"Quentin Tarantino","actor":"John Travolta"},
+    {"title":"El bueno, el feo y el malo","director":"Sergio Leone","actor":"Clint Eastwood"},
+    {"title":"Forrest Gump","director":"Robert Zemeckis","actor":"Tom Hanks"},
+    {"title":"El club de la lucha","director":"David Fincher","actor":"Brad Pitt"},
+    {"title":"Origen","director":"Christopher Nolan","actor":"Leonardo DiCaprio"},
+    {"title":"El señor de los anillos: La comunidad del anillo","director":"Peter Jackson","actor":"Elijah Wood"},
+    {"title":"Star Wars: Episodio V - El Imperio contraataca","director":"Irvin Kershner","actor":"Mark Hamill"},
+    {"title":"Matrix","director":"Lana Wachowski, Lilly Wachowski","actor":"Keanu Reeves"},
+    {"title":"Uno de los nuestros","director":"Martin Scorsese","actor":"Ray Liotta"},
+    {"title":"Psicosis","director":"Alfred Hitchcock","actor":"Anthony Perkins"},
+    {"title":"Los siete samuráis","director":"Akira Kurosawa","actor":"Toshirô Mifune"},
+    {"title":"El silencio de los inocentes","director":"Jonathan Demme","actor":"Jodie Foster"},
+    {"title":"Salvar al soldado Ryan","director":"Steven Spielberg","actor":"Tom Hanks"}
+]
