@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestor de comics</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Gestor de Comics</h1>
+    </header>
+
+    <h2>Filtros:</h2>
+        <div class="linea">
+            <input id="filtroTitulo" placeholder="Filtrar por titulo">
+            <input id="filtroAutor" placeholder="Filtrar por autor">
+
+            <select id="filtroEstado">
+                <option value="">Estado</option>
+                <option value="pendiente">Pendiente</option>
+                <option value="leyendo">Leyendo</option>
+                <option value="leido">Leído</option>
+            </select>
+
+            <select id="filtroPrestado">
+                <option value="">Prestado si o no</option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+
+            <select id="filtroEstanteria">
+                <option value="">Estanteria</option>
+                <option value="estanteria1">Estanteria 1</option>
+                <option value="estanteria2">Estanteria 2</option>
+                <option value="estanteria3">Estanteria 3</option>
+            </select>
+
+            <button onclick="aplicarFiltros()">Filtrar</button>
+        </div>
+
+
+    <h2>Registrar comic</h2>
+        <div class="linea">
+            <input id="nuevoTitulo" placeholder="Titulo" required>
+            <input id="nuevoAutor" placeholder="Autor" required>
+
+            <select id="nuevoEstado">
+                <option value="">Estado</option>
+                <option value="pendiente">Pendiente</option>
+                <option value="leyendo">Leyendo</option>
+                <option value="leido">Leído</option>
+            </select>
+
+            <select id="nuevoPrestado">
+                <option value="">Prestado si o no</option>
+                <option value="no">No</option>
+                <option value="si">Si</option>
+            </select>
+
+            <select id="nuevaEstanteria">
+                <option value="">Estanteria</option>
+                <option value="estanteria1">Estanteria 1</option>
+                <option value="estanteria2">Estanteria 2</option>
+                <option value="estanteria3">Estanteria 3</option>
+            </select>
+
+            <button onclick="registrarComic()">Registrar</button>
+        </div>
+
+    <h2>Comics</h2>
+        <div class="fila-encabezado">
+            <div class="celda">Título</div>
+            <div class="celda">Autor</div>
+            <div class="celda">Estado</div>
+            <div class="celda">Prestado</div>
+            <div class="celda">Estantería</div>
+            <div class="celda acciones">Acciones</div>
+        </div>
+
+    <div id="comics"></div>
+
+    <script src="comic.js"></script>
+    <script src="funciones.js"></script>
+</body>
+</html>

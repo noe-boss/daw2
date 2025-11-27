@@ -6,6 +6,7 @@ import path from "path";
 import { variables, concatenar } from './sesion2/sesion2.js';
 import { mostrarCoches } from './ejer_coches/main.js';
 import { ejemplos } from './sesion2/paises.js';
+import { imprimirNaves } from './starwards/funciones.js';
 
 const app = express();
 const port = 3000;
@@ -48,6 +49,10 @@ app.get("/peliculas/movies", async (req, res) => {
         const data = await fs.readFile(path.join(__dirname, "/peliculas/movies.json"), "utf-8");
         const movies = JSON.parse(data);
         res.json(movies);
+});
+app.get('/starwards/funciones', (req, res) => {
+  const resultado = imprimirNaves();
+  res.send(resultado);
 });
 
 

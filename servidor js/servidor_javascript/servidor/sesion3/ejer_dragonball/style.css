@@ -1,0 +1,142 @@
+
+/* ==================================
+   GENERAL
+================================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px 40px;
+  background-color: #af5113;
+}
+
+header {
+  background-image: url("img.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  font-size: 40px;
+}
+
+header a{
+  text-shadow: 0px 0px 80px black;
+  text-shadow: 0px -2px 80px black;
+  text-shadow: 0px -2px 80px black;
+  text-shadow: 0px -2px 80px black;
+  text-shadow: 0px -2px 80px black;
+}
+/* ==================================
+   BOTONES
+================================== */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 40px;
+}
+
+.button-container button {
+  padding: 12px 30px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button-container button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ==================================
+   GRID PORTADA
+================================== */
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 30px; /* separación entre filas */
+  margin-top: 20px;
+}
+
+/* TARJETAS PORTADA */
+.card {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fafafa;
+  height: 100%;
+  margin-bottom: 10px; /* separación extra */
+}
+
+.card:hover {
+  background: #ff9913;
+}
+
+.card .imagen {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .imagen img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card .nombre {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card .descripcion {
+  font-size: 0.9em;
+  color: #444;
+  text-align: justify;
+  flex-grow: 1;
+}
+
+/* ==================================
+   TABLA LISTADO
+================================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:hover {
+  background: #ff9913;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+

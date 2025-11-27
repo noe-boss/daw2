@@ -1,0 +1,75 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 20px 40px;
+  background-color: #2e1a47;
+  color: #f5e9d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-image: url("hogwarts-header.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 300px;
+  color: #f5e9d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
+  font-size: 40px;
+  letter-spacing: 3px;
+  border-bottom: 3px solid rgba(255,255,255,0.2);
+  width: 100%;
+}
+
+/* Contenedor de casas en portada */
+.contenedor-casas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* Tarjetas de casa */
+.contenedor-casas div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contenedor-casas div:hover {
+  transform: translateY(-5px); /* solo animación de desplazamiento */
+}
+
+/* Imagen de la casa */
+.contenedor-casas img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease; /* solo animación de escala */
+}
+
+/* Nombre de la casa */
+.contenedor-casas div span {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #ffefc1;
+  text-shadow: 1px 1px 4px black;
+  text-align: center;
+}
