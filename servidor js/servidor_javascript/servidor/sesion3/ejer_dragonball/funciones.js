@@ -113,25 +113,6 @@ async function cargarListado() {
     });
 }
 
-//   CARGAR FICHA
-async function cargarFichaPersonaje() {
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get("id");
-    const personaje = await obtenerPersonaje(id);
-    const cont = document.getElementById("character-detail");
-    cont.className = "card";
-
-    if (personaje) {
-        cont.innerHTML = `
-      <div class="imagen"><img src="${personaje.image}" alt="${personaje.name}"></div>
-      <div class="nombre">${personaje.name}</div>
-      <div class="descripcion">${personaje.description || "Sin descripción"}</div>
-    `;
-    } else {
-        cont.innerText = "No se pudo cargar el personaje.";
-    }
-}
-
 // Inicializar según página
 document.addEventListener("DOMContentLoaded", () => {
     if (document.getElementById("grid-container")) cargarPortada();
